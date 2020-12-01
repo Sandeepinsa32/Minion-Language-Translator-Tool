@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    background-color: #555;
+    color: #fff;
+}
+#txt-area{
+    width: 70%;
+    height: 10vh;
+    padding: 10px;
+    margin: 10px;
+}
+h4{
+    font: 400;
+    font-size: 22px;
+    color:#fff ;
+
+}
+#output{
+    width: 70%;
+    height: 10vh;
+    border: 2px solid #fff;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #999;
+
+}
