@@ -3,7 +3,6 @@ var txt = document.querySelector('#txt-area');
 var output = document.querySelector('#output');
 // var serverUrl = "http://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" ;
 var serverUrl = "https://api.funtranslations.com/translate/minion.json" ;
-// var serverUrl = "https://api.adviceslip.com/advice"
 // var serverUrl = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 
@@ -39,7 +38,6 @@ function isOnline() {
                     fetch(url(textInput)).then(respone => respone.json()).then(
                             json => {
                                     var outputText =  json.contents.translated ; 
-                                    // var outputText =  json.slip.advice; 
                                     output.innerText = outputText
                                     console.log(outputText);
                                 }
