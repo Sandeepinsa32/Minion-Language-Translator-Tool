@@ -1,8 +1,8 @@
 var  btn = document.querySelector('#btn-click');
 var txt = document.querySelector('#txt-area');
 var output = document.querySelector('#output');
-var serverUrl = "http://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" ;
-// var serverUrl = "https://api.funtranslations.com/translate/minion.json" ;
+// var serverUrl = "http://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" ;
+var serverUrl = "https://api.funtranslations.com/translate/minion.json" ;
 // var serverUrl = "https://api.funtranslations.com/translate/ferb-latin.json";
 
 
@@ -46,7 +46,7 @@ function isOnline() {
 
                         }
                         else{
-                           var  outputText = "Please!! Connect To Internet.. ,You are offline";
+                           var  outputText = "Please!! Connect To Internet.. ,You are offline......";
                                 output.innerText = outputText
                                 output.style.color = 'green';
                         }
